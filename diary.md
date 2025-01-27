@@ -1,4 +1,5 @@
-Development Log
+#Development Log
+
 13.1
 Planning Phase:
 Decided to create a brick breaker game inspired by personal struggles with debugging code.
