@@ -1,4 +1,4 @@
-#Development Log
+Development Log
 
 13.1
 Planning Phase:
