@@ -1,61 +1,72 @@
 Development Log
 
-13.1
-Planning Phase:
-Decided to create a brick breaker game inspired by personal struggles with debugging code.
-Changed original plan to focus on a brick breaker theme.
-Planned to build a functional prototype including ball movement, paddle control via mouse, and brick collisions.
-Implemented high score and current score tracking.
+January 13
 
-14.1
-Win & Lose Scenarios:
-Developed win and lose screens.
-Fixed bugs related to the ball getting stuck on canvas edges.
-Ensured the game resets upon the ball missing the paddle and hitting the bottom, displaying a lose screen.
+Developed a functional prototype featuring:
+Movement mechanics for the ball.
+A paddle controllable via the mouse.
+Collision detection between the ball and bricks.
+Implementation of both high score and current score tracking.
+January 14
 
-15.1
-Theme Finalization:
-Settled on a coding theme: destroying bugs in your code.
-Overcame several bugs to align the game mechanics with the new theme.
+Began working on win and lose scenarios alongside a start screen.
+Resolved several bugs, though issues like the ball getting stuck on canvas edges remain.
+Ensured the game resets appropriately when the ball misses the paddle and hits the bottom, displaying a lose screen.
 
-16.1
-Animations:
-Started working on animations.
-Faced challenges with overly detailed animations for small game objects.
-Simplified animations to ensure smooth gameplay.
+January 15
 
-17.1
-Enhanced Ball Reflection:
-Reused an overly detailed image for the canvas background.
-Improved ball reflection logic based on paddle collision points.
-Adjusted the angle of reflection to vary based on where the ball hits the paddle.
+Finalized the game theme: transforming the brick breaker into a game about destroying bugs in your code.
+Overcame significant bugs to align the theme with gameplay mechanics.
+January 16
 
-18.1
-Reset Functionality:
+Initiated work on animations.
+Encountered challenges with detailed animations due to the small size of game objects.
+Decided to temporarily remove the intricate animation to streamline development and start fresh.
+
+January 17
+
+Reused the highly detailed image as the canvas background because of its visual appeal.
+Modified the ball's reflection mechanics on the paddle:
+Instead of simply reversing direction and angle, the reflection angle now varies based on where the ball strikes the paddle.
+Dedicated most of the day to implementing and refining this new reflection behavior.
+
+January 18
+
 Added a functional reset button.
-Resolved issues with overlapping text upon game resets.
-Weekend Session
-Final Touches:
-Implemented animations for bricks (laughing bugs) and paddle hits.
-Created a new, simpler sprite for the ball with a rotating face.
+Addressed issues with overlapping text when the start button is pressed.
+Over the weekend:
+Implemented an animation for the brick, depicting a laughing bug.
+Added an on-hit animation for the keyboard, causing it to light up upon collision with the ball.
+Created a new spritesheet for the ball, featuring a simpler rotating face.
 
-21.1
-Progression System:
-Introduced a level progression system starting with one row of bugs.
-Increased difficulty by adding up to four rows and boosting ball speed upon clearing levels.
+January 21
 
-22.1
-Win Scenarios & Lives:
-Developed multiple win scenarios, including final wins after maximum levels.
-Introduced a lives system with limited attempts to increase challenge.
+Enhanced game progression by introducing levels:
+Players start by clearing one row of bricks.
+Each subsequent win adds an additional row, up to four rows.
+After completing all levels, the number of rows resets to one, but the ball's speed increases, maintaining the challenge.
 
-23.1
-Special Bricks & Lives:
-Added special bricks that drop hearts to grant extra attempts.
-Implemented a final lose scenario when all lives are lost.
+January 22
 
-24.1
-Audio Enhancements:
-Integrated background music and various sound effects for hits, collisions, wins, and losses.
-Tuned game velocities and difficulty to balance gameplay, ensuring the game is neither too easy nor too hard.
-Aimed to add character and humor to the game through audio and visual effects.
+Developed multiple win scenarios:
+Clearing all rows.
+Completing maximum rows with increased ball speed.
+Achieving a final win condition.
+Introduced a life system to add challenge:
+Players have a limited number of lives.
+Losing all lives requires the player to restart from the beginning, preventing endless attempts.
+
+January 23
+
+Reduced the number of initial attempts available to the player.
+Introduced special bricks that occasionally drop hearts:
+Hearts slowly descend, and players can catch them with the paddle to gain extra lives.
+Added an additional lose scenario for when all lives are depleted.
+
+January 24
+
+Focused on audio and game effects to enhance the gaming experience:
+Added background music and various sound effects for hits, losses, and wins.
+Aimed to infuse humor and character into the game, aligning with its simple yet engaging premise.
+Adjusted game mechanics to balance difficulty:
+Tweaked velocities, maximum rows, and ball speed to ensure the game is neither too easy nor too hard.
