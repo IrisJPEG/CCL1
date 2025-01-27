@@ -1,0 +1,146 @@
+html, body {
+    background-image: url('./images/backg1.png'); /* Ensure correct path */
+    background-size: cover; /* Makes the image cover the entire viewport */
+    background-position: center; /* Centers the image in the viewport */
+    background-repeat: no-repeat; /* Prevents tiling of the background */
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the body covers the full viewport height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+body h3 {
+    font-family: 'Courier New', monospace;
+    color: white;
+    font-size: 25px;
+}
+
+body h1 {
+    color: rgb(160, 230, 152);
+    font-family: 'Courier New', monospace;
+    font-size: 60px;
+}
+
+body h4 {
+    font-family: 'Courier New', monospace;
+    color: white;
+    font-size: 20px;
+}
+
+body h5 {
+    font-family: 'Courier New', monospace;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+}
+
+#canvas {
+    margin: 0;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+#startScreen {
+    background-image: url('./images/backg3.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input {
+    font-size: 30px;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 20px;
+    background-color: rgb(0, 255, 119);
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+#startButton:hover {
+    background-color: rgb(0, 110, 90); 
+}
+
+#gameScreen {
+    position: relative; /* Set relative positioning for button placement */
+    display: none;
+}
+
+#resetButton {
+    position: absolute; /* Position the button */
+    bottom: 20px; /* Place near the top */
+    left: 20px; /* Align to the left of the screen */
+    padding: 20px;
+    background-color: rgb(255, 69, 58); /* Bright red */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 10; /* Ensure it is above the canvas */
+    transition: background-color 0.3s ease;
+}
+
+#resetButton:hover {
+    background-color: rgb(200, 40, 40); /* Darker red on hover */
+}
+
+#musicToggleButton {
+    position: absolute; /* Position the button */
+    bottom: 20px; /* Place near the top */
+    right: 20px; /* Align to the left of the screen */
+    padding: 20px;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    background-color: rgb(133, 63, 254);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+#musicToggleButton:hover {
+    background-color: rgb(81, 0, 106);  
+}
+
