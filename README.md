@@ -35,3 +35,5 @@ HTML5 & CSS3: For structuring and styling the game interface.
 JavaScript (ES6 Modules): Core game logic and functionality.
 Canvas API: Rendering game graphics and animations.
 Audio: Adding immersive sound effects and background music.
+
+Happy Bug Hunting! 🐛🪓
