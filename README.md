@@ -34,9 +34,11 @@ Below are the sprites used to create characters and objects in the game:
   <p>*Figure 3: Ball animation.*</p>
 </div>
 
-### Obstacles and Ball:
-![Obstacle and Ball Sprites](obstacles_ball_sprites.png)
-*Figure 4: Rows of bug-like obstacles and the animated ball frames.*
+### Paddle sprites:
+<div style="text-align: center;">
+  <img src="TOOT JE ZATIAL TOP/images/paddlesprite.png" alt="paddle" width="500">
+  <p>*Figure 4: Paddle animation.*</p>
+</div>
 
 ---
 
