@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Play the Game
-[Click here to play the game!]([https://your-github-username.github.io/repository-name](https://irisjpeg.github.io/CCL1/))
+[Click here to play the game!](https://irisjpeg.github.io/CCL1/)
 
 ---
 
