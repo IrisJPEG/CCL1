@@ -43,6 +43,7 @@ Below are the sprites used to create characters and objects in the game:
   <img src="images/obstacles.png" alt="bug" width="500">
   <p>*Figure 4: Bug animation.*</p>
 </div>
+
 ---
 
 ## ✍️ Reflection
