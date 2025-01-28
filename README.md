@@ -49,16 +49,16 @@ Below are the sprites used to create characters and objects in the game:
 ## ✍️ Reflection
 
 ### What Went Well
-- **Responsive Paddle Control**: Moving the paddle with mouse input provided smooth, intuitive gameplay.
-- **Hearts for Extra Tries**: Introducing heart pickups gave players more incentive and excitement to continue.
-- **Visual Feedback**: Animations for hitting the paddle or colliding with obstacles created a polished feel.
+- **Responsive Paddle Control**: Moving the paddle with mouse input provided intuitive gameplay, and adding different reflection angles based on the place of collision on the paddle gave the game sence of needed skill.
+- **Hearts for Extra Tries**: Introducing heart pickups gave players more chances to win the game.
+- **Visuals**: I enjoyed giving my game a goofy representation and I think I have succeeded
 
 ### Challenges
 - **Balancing Difficulty**: Tuning the number of obstacles and the velocity increments was challenging.
-- **Collision Precision**: Handling edge collisions between the ball, paddle, and bricks required careful math and testing.
+- **Collision Precision**: Handling edge collisions between the ball, paddle, and bricks..
 
 ### Lessons Learned
-- **Incremental Design**: Starting with a minimal Breakout clone and gradually adding features (hearts, velocity boosts, additional rows) helped maintain code clarity.
+- **Incremental Design**: Starting with a minimal Breakout game and gradually adding features (hearts, velocity boosts, additional rows) helped maintain code clarity.
 - **User-Focused Iteration**: Playtest feedback on control sensitivity and obstacle layout guided our final difficulty settings.
 ---
 
