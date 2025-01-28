@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+    <link rel="stylesheet" 
+          href="style.css">
+    <title>Code breaker: Destroyer of bugs</title>
+</head>
+
+<body>
+    <div id="startScreen">
+        <h1>Code breaker: Destroyer of bugs</h1>
+        <h3>Use your mouse to move the keyboard</h3>
+        <h4>Collect hearts to gain more attempts</h4>
+        <h5>For best experience use a mouse</h5>
+        <label for="playerName">
+            Enter your name to play
+        </label>
+        <input type="text" 
+               id="playerName" 
+               placeholder="Your Name">
+        <button id="startButton">
+            Start Game
+        </button>
+    </div>
+    <button id="resetButton">Reset</button>
+    <div id="gameScreen" 
+         style="display: none;">
+        <canvas id="canvas"></canvas>
+        <div style="display:inline">
+            <h2 style="text-align:center" 
+                id="curr_score">
+                YOUR SCORE:
+            </h2>
+            <h2 style="text-align:center" 
+                id="high_score">
+                HIGH SCORE:
+            </h2>
+            <h2 style="text-align:center" id="fail_count">
+                NUMBER OF TRIES LEFT: 4
+            </h2>
+        </div>
+    </div>
+    <div id="winScreen" style="display: none; text-align: center;">
+        <h1>Congratulations, You Win!</h1>
+        <p>Click the button below to restart the game.</p>
+        <button id="restartButton">Restart Game</button>
+    </div>
+    <script type="module" src="modules/data.js"></script>
+    <script type="module" src="modules/script.js"></script>
+    <script type="module" src="modules/global.js"></script>
+
+    <audio id="backgroundMusic" src="./music/Untitled video - Made with Clipchamp.mp4" preload="auto" loop></audio>
+    <audio id="collisionSound" src="./music/obstacle goop.mp4" preload="auto" ></audio>
+    <audio id="hitSound" src="./music/bonk.mp4" preload="auto"></audio>
+    <audio id="winSound" src="./music/cheer.mp4" preload="auto"></audio>
+    <audio id="loseSound" src="./music/boo-36556.mp3" preload="auto"></audio>
+    <audio id="failSound" src="./music/i-am-very-disappointed-male-spoken-213232.mp3" preload="auto"></audio>
+    <audio id="passSound" src="./music/jeej-103722.mp3" preload="auto"></audio>
+    <audio id="fasterSound" src="./music/FASTER.mp4" preload="auto"></audio>
+    <audio id="heartSound" src="./music/heart.mp4" preload="auto"></audio>
+    <button id="musicToggleButton">Music ON/OFF</button>
+    
+    
+</body>
+
+</html>
