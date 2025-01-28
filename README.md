@@ -25,11 +25,13 @@
 </div>
 
 ## 🎨 Spritesheets
+Below are the sprites used to create characters and objects in the game:
 
+### Ball sprites:
 
 <div style="text-align: center;">
-  <img src="TOOT JE ZATIAL TOP/images/ballSprite" alt="ball" width="500">
-  <p>*Figure 3: Player character animations.*</p>
+  <img src="TOOT JE ZATIAL TOP/images/ballSprite.png" alt="ball" width="500">
+  <p>*Figure 3: Ball animation.*</p>
 </div>
 
 ### Obstacles and Ball:
