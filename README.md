@@ -26,11 +26,11 @@
 
 ## 🎨 Spritesheets
 
-*(Note: In this project, we use sprite animations for the ball, obstacles, and paddle. Below are example placeholders if you had specific character or NPC sprites.)*
 
-### Player (Paddle) Spritesheet:
-![Paddle Spritesheet](paddle_spritesheet.png)
-*Figure 3: Paddle frames showing normal and “hit” states.*
+<div style="text-align: center;">
+  <img src="TOOT JE ZATIAL TOP/images/ballSprite" alt="ball" width="500">
+  <p>*Figure 3: Player character animations.*</p>
+</div>
 
 ### Obstacles and Ball:
 ![Obstacle and Ball Sprites](obstacles_ball_sprites.png)
