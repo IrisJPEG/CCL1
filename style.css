@@ -1,11 +1,11 @@
 html, body {
-    background-image: url('./images/backg1.png'); /* Ensure correct path */
-    background-size: cover; /* Makes the image cover the entire viewport */
-    background-position: center; /* Centers the image in the viewport */
-    background-repeat: no-repeat; /* Prevents tiling of the background */
+    background-image: url('./images/backg1.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensures the body covers the full viewport height */
+    height: 100%; 
     width: 100%;
     display: flex;
     justify-content: center;
