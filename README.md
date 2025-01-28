@@ -14,13 +14,15 @@
 ## 📸 Screenshots
 
 ### Main Gameplay:
-![Gameplay Screenshot](gameplay.png)
-*Figure 1: Example of gameplay in action.*
-
+<div style="text-align: center;">
+  <img src="images/gameplay.png" alt="Gameplay Screenshot" width="600">
+  <p>*Figure 1: Example of gameplay in action.*</p>
+</div>
 ### Menu and UI:
-![Menu UI Screenshot](menu.png)
-*Figure 2: Start screen and user interface.*
-
+<div style="text-align: center;">
+  <img src="images/UI.png" alt="Menu UI Screenshot" width="600">
+  <p>*Figure 2: Menu and user interface.*</p>
+</div>
 ---
 
 ## 🎨 Spritesheets
