@@ -1,39 +1,33 @@
-# Code Breaker: Destroyer of Bugs
-Description
-Code Breaker: Destroyer of Bugs is a JavaScript-based brick breaker game designed as a school project. The game combines classic brick breaker mechanics with a playful coding theme, where players control a paddle to bounce a ball and eliminate bugs (bricks) from their code. Inspired by personal struggles with debugging, the game adds a relatable and engaging narrative to the traditional gameplay. As players progress, they encounter increasing challenges, including faster ball speeds and special bug types that grant extra lives.
+🎮 Code Breaker: Destroyer of Bugs
+Short Pitch: A modern twist on the classic Breakout-style gameplay. Use your “keyboard” paddle to squash bugs (obstacles), collect hearts for extra lives, and outscore your own high score!
 
-Features
-Interactive Gameplay: Control the paddle using your mouse to keep the ball in play and destroy bugs.
-Dynamic Levels: Progress through multiple levels with increasing difficulty, including speed boosts and additional bug rows.
-Special Bugs: Occasionally, bugs drop hearts that grant extra attempts when caught by the paddle.
-Animations: Enjoy smooth animations for the ball, paddle hits, and bug destructions.
-Sound Effects: Immersive audio with background music and sound effects for hits, collisions, wins, and losses.
-Score Tracking: Monitor your current score and aim for high scores.
-Responsive Design: Optimized for various screen sizes with a visually appealing interface.
-Reset Functionality: Easily restart the game at any point using the reset button.
+🌐 Play the Game
+Click here to play the game!
 
-How to Play
+(Replace the above link with your actual GitHub Pages URL or hosting link.)
 
-Start the Game:
-Enter your name in the provided input field and click the Start Game button.
+📸 Screenshots
+Main Gameplay:
+<div style="text-align: center;"> <img src="gameplay.png" alt="Gameplay Screenshot" width="600"> <p>*Figure 1: Example of gameplay in action.*</p> </div>
+Menu and UI:
+<div style="text-align: center;"> <img src="menu.png" alt="Menu UI Screenshot" width="600"> <p>*Figure 2: Start screen and user interface.*</p> </div>
+🎨 Spritesheets
+(Note: In this project, we use sprite animations for the ball, obstacles, and paddle. Below are example placeholders if you had specific character or NPC sprites.)
 
-Gameplay Mechanics:
-Move your mouse to control the paddle at the bottom of the screen.
-Bounce the ball to destroy bugs (bricks) arranged at the top.
-Collect hearts dropped by special bugs to gain extra attempts.
-
-Win & Lose Conditions:
-Win: Clear all bugs across multiple levels with increasing difficulty.
-
-Lose: Miss the ball with the paddle, and lose an attempt. The game ends when all attempts are exhausted.
-
-Resetting the Game:
-Click the Reset button at any time to restart the game.
-
-Technologies Used
-HTML5 & CSS3: For structuring and styling the game interface.
-JavaScript (ES6 Modules): Core game logic and functionality.
-Canvas API: Rendering game graphics and animations.
-Audio: Adding immersive sound effects and background music.
+Player (Paddle) Spritesheet:
+<div style="text-align: center;"> <img src="paddle_spritesheet.png" alt="Paddle Spritesheet" width="500"> <p>*Figure 3: Paddle frames showing normal and “hit” states.*</p> </div>
+Obstacles and Ball:
+<div style="text-align: center;"> <img src="obstacles_ball_sprites.png" alt="Obstacle and Ball Sprites" width="500"> <p>*Figure 4: Rows of bug-like obstacles and the animated ball frames.*</p> </div>
+✍️ Reflection
+What Went Well
+Responsive Paddle Control: Moving the paddle with mouse input provided smooth, intuitive gameplay.
+Hearts for Extra Tries: Introducing heart pickups gave players more incentive and excitement to continue.
+Visual Feedback: Animations for hitting the paddle or colliding with obstacles created a polished feel.
+Challenges
+Balancing Difficulty: Tuning the number of obstacles and the velocity increments was challenging.
+Collision Precision: Handling edge collisions between the ball, paddle, and bricks required careful math and testing.
+Lessons Learned
+Incremental Design: Starting with a minimal Breakout clone and gradually adding features (hearts, velocity boosts, additional rows) helped maintain code clarity.
+User-Focused Iteration: Playtest feedback on control sensitivity and obstacle layout guided our final difficulty settings.
 
 Happy Bug Hunting! 🐛🪓
