@@ -40,6 +40,11 @@ Below are the sprites used to create characters and objects in the game:
   <p>*Figure 4: Paddle animation.*</p>
 </div>
 
+### Obstacle-Bugs sprites:
+<div style="text-align: center;">
+  <img src="TOOT JE ZATIAL TOP/images/obstacles.png" alt="bug" width="500">
+  <p>*Figure 4: Bug animation.*</p>
+</div>
 ---
 
 ## ✍️ Reflection
