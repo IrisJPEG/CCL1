@@ -1,6 +1,6 @@
 # 🎮 Code Breaker: Destroyer of Bugs
 
-> **Short Pitch**: A modern twist on the classic Breakout-style gameplay. Use your “keyboard” paddle to squash bugs (obstacles), collect hearts for extra lives, and outscore your own high score!
+> **Short Pitch**: A relatable twist on the classic Breakout-style gameplay. Inspired by the struggles of debugging, use the keyboard to reflect your desperate face and squash all bugs.
 
 ---
 
