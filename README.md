@@ -23,7 +23,7 @@
 </div>
 
 ## 🎨 Spritesheets
-Below are the sprites used to create characters and objects in the game:
+Below are the sprites used to create objects in the game:
 
 ### Ball sprites:
 
