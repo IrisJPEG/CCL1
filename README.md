@@ -60,6 +60,8 @@ Below are the sprites used to create objects in the game:
 ### Lessons Learned
 - **Incremental Design**: Starting with a minimal Breakout game and gradually adding features (hearts, velocity boosts, additional rows) helped keep the code functional as I progressed.
 - **User-Focused Iteration**: Letting my friends play the game helped me determine the right difficulty, as after testing it my self 1000 times my opinion was biased.
+- **Sprite creation**: Overly detailed sprites became hard to read, so I had to create Sprites suitable for the size of my objects.
+
 ---
 
 Happy Bug Hunting! 🐛🪓
